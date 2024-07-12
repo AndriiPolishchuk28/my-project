@@ -1,15 +1,9 @@
 import { FC } from "react";
 
-interface Props {
-  title: string;
-  onClick: () => void;
-}
-
-const Home: FC<Props> = ({ title, onClick }) => {
+const Home: FC = () => {
   return (
     <div>
       <h1>Home</h1>
-      <button onClick={onClick}>Click me</button>
     </div>
   );
 };
